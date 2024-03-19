@@ -4,7 +4,7 @@ Este é um aplicativo Flutter desenvolvido utilizando os princípios de SOLID e 
 
 |                                                                 Consuming API                                                                 |
 |:---------------------------------------------------------------------------------------------------------------------------------------------:|
-|<img src="readme/images/consuming_api.gif" align="center" width="20%"/>|
+|<img src="readme/images/consuming_api.gif" align="center" width="60%"/>|
 
 ## Divisão de Módulos
 
