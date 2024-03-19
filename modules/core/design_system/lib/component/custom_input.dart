@@ -1,0 +1,64 @@
+import 'package:design_system/res/colors.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:masked_text/masked_text.dart';
+
+class CustomInput extends StatelessWidget {
+  const CustomInput({
+    super.key,
+    this.hintText = "",
+    this.keyboardType = TextInputType.none,
+    this.prefixIcon,
+    this.isEnable = true,
+    this.mask,
+    this.maxLength,
+    this.marginHorizontal,
+    this.marginTop,
+    this.inputFormats,
+    this.textCapitalization = TextCapitalization.none,
+    required this.controller,
+    this.minLines,
+    this.textStyle,
+  });
+
+  final TextEditingController controller;
+  final TextCapitalization textCapitalization;
+  final String hintText;
+  final String? mask;
+  final TextInputType keyboardType;
+  final Icon? prefixIcon;
+  final bool isEnable;
+  final int? maxLength;
+  final int? minLines;
+  final double? marginHorizontal;
+  final double? marginTop;
+  final List<TextInputFormatter>? inputFormats;
+  final TextStyle? textStyle;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: EdgeInsets.only(top: marginTop ?? 0, right: marginHorizontal ?? 0, left: marginHorizontal ?? 0),
+      child: MaskedTextField(
+        style: textStyle ?? TextStyle(color: Colors.white),
+        minLines: minLines,
+        inputFormatters: inputFormats,
+        enabled: isEnable,
+        textCapitalization: textCapitalization,
+        keyboardType: keyboardType,
+        controller: controller,
+        maxLength: maxLength,
+        maxLines: minLines,
+        mask: mask,
+        decoration: InputDecoration(
+          fillColor: CustomColors.secondColor,
+          labelStyle: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold, letterSpacing: 2),
+          border: const OutlineInputBorder(),
+          prefixIcon: prefixIcon,
+          filled: true,
+          labelText: hintText,
+        ),
+      ),
+    );
+  }
+}

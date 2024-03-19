@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "26081040571",
+    "firebase_url": "https://marvel-app-307ce-default-rtdb.firebaseio.com",
+    "project_id": "marvel-app-307ce",
+    "storage_bucket": "marvel-app-307ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26081040571:android:51ef197598a2e3f35af19e",
+        "android_client_info": {
+          "package_name": "com.example.marvel_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDErfUgxSE0wYQruXuRMbuxZ0QSgEeYln0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

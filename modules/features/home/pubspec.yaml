@@ -1,0 +1,31 @@
+name: home
+description: "A new Flutter package project."
+version: 0.0.1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_modular: ^6.3.2
+  result_dart:
+  firebase_auth:
+  rx_notifier: ^2.3.0
+  dio:
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  loading_animation_widget:
+  design_system:
+    path: ../../core/design_system
+  api:
+    path: ../../core/api
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
