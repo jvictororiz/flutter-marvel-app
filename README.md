@@ -4,11 +4,12 @@ Este é um aplicativo Flutter desenvolvido utilizando os princípios de SOLID e 
 
 |                                                                 Consuming API                                                                 |
 |:---------------------------------------------------------------------------------------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com/jvictororiz/flutter-marvel-app/main/readme/images/consuming_api.mov" align="center" width="70%"/> |
+| <img src="readme/images/consuming_api.mp4" align="center" width="70%"/> |
 
 ## Divisão de Módulos
 
-<img src="https://raw.githubusercontent.com/jvictororiz/flutter-marvel-app/main/readme/images/modularization.png" align="center" width="70%"/>
+<img src="readme/images/modularization.png" align="center" width="20%"/>
+
 
 ## Funcionalidades Principais
 
